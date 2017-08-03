@@ -1,5 +1,5 @@
 # Docker PG-Backups
-### A Docker container to back up Postgres databases
+### A Docker container to back up Postgres databases automatically
 
 The `backup_databases.sh` script queries the database for all non-template databases and uses `pg_dump` to save them:
 
